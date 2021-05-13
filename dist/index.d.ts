@@ -40,9 +40,9 @@ export type DropzoneAreaBaseProps = {
   acceptedFiles?: string[];
   fileObjects: FileObject[];
   filesLimit?: number;
-  Icon?: React.ComponentType;
+  Icon?: React.ElementType;
   maxFileSize?: number;
-  dropzoneText?: string;
+  dropzoneText?: string | React.ReactElement;
   previewText?: string;
   showPreviews?: boolean;
   showPreviewsInDropzone?: boolean;

@@ -1,3 +1,22 @@
+> [This repository](https://github.com/ShawLocke/material-ui-dropzone) based on version: 3.5.0 of [material-ui-dropzone](https://github.com/Yuvaleros/material-ui-dropzone)
+
+### Main modifications:
+
+1. fix typing errors on Icon prop.
+  ```
+  # use this way and you will not encounter any typing erros
+  Icon = {() => <CloudUploadIcon /> }
+  ```
+
+2. add ReactElement support for dropzoneText.
+  ```
+  dropzoneText={<>These are some <span style={{ color: 'red' }}>texts</span></>}
+  # or 
+  dropzoneText="These are some texts"
+  ```
+
+---
+Original readme:
 # material-ui-dropzone
 
 > Material-UI-dropzone is a [React](https://github.com/facebook/react) component using [Material-UI](https://github.com/mui-org/material-ui) and is based on the excellent [react-dropzone](https://github.com/react-dropzone/react-dropzone) library.
